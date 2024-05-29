@@ -1,0 +1,54 @@
+.r{
+    float:left;
+   position: fixed;
+   color: white;
+       }
+   .re{
+       float: right;
+       text-align: center;
+       justify-content: center;
+       position: relative;
+   }    
+   
+   body {
+    
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: large;
+    background-image: url('th.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+  }  
+  button{
+
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid  red;
+    color: red;
+     font-size: px;
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color:  red;
+    color: white;
+  }
+ h1{
+  color: cyan;
+ }
+  li{
+    color:cyan;
+
+  }
+
+table{
+
+  border: 2px solid cyan;
+}

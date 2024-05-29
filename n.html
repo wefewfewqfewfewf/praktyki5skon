@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Napisz recenzje</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="rating.png" type="image/jpeg">
+      
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    
+    
+   
+    <div class="container mt-5">
+        <div class="row">
+          <div class="col-sm-4">       
+          </div>
+          
+          <div class="col-sm-4">
+<h1>Napisz recenzję</h1>
+            <section class="s">
+              <a href="superstrona.html"><button>Powrót na stronę główną</button></a>
+                <form id="myForm" action="recenzje.php" method="post">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="przypisanie">Danie</label>
+                            <select class="form-control" id="przypisanie" name="przypisanie">
+                                <option value="" disabled selected></option>
+                                <option value="Antipasto misto">Antipasto misto</option>
+                                <option value="Insalata di mare">Insalata di mare</option>
+                                <option value="Gravlaks">Gravlaks</option>
+                                <option value="Bruschetta al pomodoro">Bruschetta al pomodoro</option>
+                                <option value="Rakfisk">Rakfisk</option>
+                                <option value="Zuppa di pesce">Zuppa di pesce</option>
+                                <option value="Fiskesuppe">Fiskesuppe</option>
+                                <option value="Minestrone">Minestrone</option>
+                                <option value="Sodd">Sodd</option>
+                                <option value="Zuppa toscana">Zuppa toscana</option>
+                                <option value="Bacalao alla vicentina">Bacalao alla vicentina</option>
+                                <option value="Pizza diavolo">Pizza diavolo</option>
+                                <option value="Pollo alla cacciatora">Pollo alla cacciatora</option>
+                                <option value="Lutefisk">Lutefisk</option>
+                                <option value="Osso buco">Osso buco</option>
+                                <option value="Kransekake">Kransekake</option>
+                                <option value="Tiramisu">Tiramisu</option>
+                                <option value="Panna cotta">Panna cotta</option>
+                                <option value="Granita">Granita</option>
+                                <option value="Cannoli">Cannoli</option>
+                            </select>
+                        
+                    
+                        </div>
+                       
+                     
+                        </div>
+               
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="firstName">Treść</label>
+                                    <input type="text" class="form-control" id="firstName" name="firstName"><br>
+                                 
+                                  
+                                    
+                              </div>
+                
+                            </div>
+                            
+
+                            <button type="submit"  id="submitButton">Wyślij</button> 
+                          </form>
+                        </section>
+                            
+                          
+               
+           
+             
+  
+        
+          </div>
+          
+            
+           
+              
+        </div>
+          </div> 
+        
+          </div>
+        </div>
+      </div>
+      
+    </body>
+</html>

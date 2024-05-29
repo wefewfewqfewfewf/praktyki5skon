@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+</head>
+<body>
+    <h1>Welcome, <?php session_start(); echo $_SESSION['username']; ?></h1>
+    <form action="process2.php" method="post">
+        <label for="dish">danie:</label>
+        <select id="dish" name="dish" required>
+            <option value="" disabled selected></option>
+            <option value="Antipasto misto">Antipasto misto</option>
+            <option value="Insalata di mare">Insalata di mare</option>
+            <option value="Gravlaks">Gravlaks</option>
+            <option value="Bruschetta al pomodoro">Bruschetta al pomodoro</option>
+            <option value="Rakfisk">Rakfisk</option>
+            <option value="Zuppa di pesce">Zuppa di pesce</option>
+            <option value="Fiskesuppe">Fiskesuppe</option>
+            <option value="Minestrone">Minestrone</option>
+            <option value="Sodd">Sodd</option>
+            <option value="Zuppa toscana">Zuppa toscana</option>
+            <option value="Bacalao alla vicentina">Bacalao alla vicentina</option>
+            <option value="Pizza diavolo">Pizza diavolo</option>
+            <option value="Pollo alla cacciatora">Pollo alla cacciatora</option>
+            <option value="Lutefisk">Lutefisk</option>
+            <option value="Osso buco">Osso buco</option>
+            <option value="Kransekake">Kransekake</option>
+            <option value="Tiramisu">Tiramisu</option>
+            <option value="Panna cotta">Panna cotta</option>
+            <option value="Granita">Granita</option>
+            <option value="Cannoli">Cannoli</option>
+        </select><br><br>
+        <label for="review">Treść:</label><br>
+        <textarea id="review" name="review" rows="4" cols="50" required></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
